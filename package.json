@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "lint": "lynt src/**/*"
+    "lint": "lynt src"
   },
   "repository": "git@github.com:0918nobita/hyperapp.git",
   "author": "0918nobita <nobita.0918@gmail.com>",
@@ -15,5 +15,12 @@
   "devDependencies": {
     "lynt": "^0.5.4",
     "typescript": "^3.2.4"
+  },
+  "lynt": {
+    "typescript": true,
+    "react": true,
+    "rules": {
+      "jsx-no-lambda": "off"
+    }
   }
 }
