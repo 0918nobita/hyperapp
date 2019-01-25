@@ -23,5 +23,9 @@
     "rules": {
       "jsx-no-lambda": "off"
     }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }
